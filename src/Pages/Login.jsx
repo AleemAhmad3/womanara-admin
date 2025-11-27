@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Box, Button, TextField, Typography, Paper, CircularProgress } from "@mui/material";
 import { login } from "../DAL/auth";
-import logo from "../Assets/CarterOilLogo.svg";
+import logo from "../Assets/womanara-logo.webp";
 import './login.css'
 import { useAlert } from "../Components/Alert/AlertContext";
 
