@@ -22,7 +22,7 @@ function AppWrapper() {
   const handleLoginSuccess = () => {
     setIsAuthenticated(true);
     setMessage({ type: "success", text: "Login Successfully" });
-    navigate("/blogs"); // writers land here
+    navigate("/leads"); // writers land here
   };
 
   const handleLogout = () => {
