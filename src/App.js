@@ -7,7 +7,7 @@ import {
   Navigate,
 } from "react-router-dom";
 import "./App.css";
-import logo from "./Assets/CarterOilLogo.svg";
+import logo from "./Assets/womanara-logo.webp";
 import Leads from "./Pages/Leads/Leads";
 import { AiFillProduct } from "react-icons/ai";
 import { IoMdContacts } from "react-icons/io";
