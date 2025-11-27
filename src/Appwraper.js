@@ -10,8 +10,7 @@ function AppWrapper() {
   const navigate = useNavigate();
   const [message, setMessage] = useState({ type: "", text: "" });
 
-  const user = JSON.parse(localStorage.getItem("user"));
-  const userType = user?.type?.name || "";
+
 
   useEffect(() => {
     if (!isAuthenticated) {
@@ -44,7 +43,7 @@ function AppWrapper() {
             <App
               onLogout={handleLogout}
               message={message}
-              userType={userType}
+              userType={""}
             />
           }
         />
